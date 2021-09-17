@@ -1,0 +1,30 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Home</h1>
+  <p>ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br> 
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+  </p>
+  <mat-grid-list cols="2" rowHeight="350px">
+    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            {{card.title}}
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <button mat-menu-item>Expand</button>
+              <button mat-menu-item>Remove</button>
+            </mat-menu>
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <div></div>
+          <!-- <img mat-card-image src="{{card.src}}" alt="Photo of a Shiba Inu"> -->
+          <img mat-card-image [src]="card.src" alt="Photo of a Shiba Inu">
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
