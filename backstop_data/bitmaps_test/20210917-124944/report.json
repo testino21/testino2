@@ -1,0 +1,108 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_testino_Testino_Home_0_document_0_desktop.png",
+        "test": "..\\bitmaps_test\\20210917-124944\\backstop_testino_Testino_Home_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "backstop_testino_Testino_Home_0_document_0_desktop.png",
+        "label": "Testino Home",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200/home",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "error": "Reference file not found C:\\Users\\PastaMista\\Documents\\GitHub\\testino2\\backstop_data\\bitmaps_reference\\backstop_testino_Testino_Home_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_testino_Testino_Home_0_document_1_phone.png",
+        "test": "..\\bitmaps_test\\20210917-124944\\backstop_testino_Testino_Home_0_document_1_phone.png",
+        "selector": "document",
+        "fileName": "backstop_testino_Testino_Home_0_document_1_phone.png",
+        "label": "Testino Home",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200/home",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found C:\\Users\\PastaMista\\Documents\\GitHub\\testino2\\backstop_data\\bitmaps_reference\\backstop_testino_Testino_Home_0_document_1_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_testino_Testino_Home_0_document_2_tablet.png",
+        "test": "..\\bitmaps_test\\20210917-124944\\backstop_testino_Testino_Home_0_document_2_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_testino_Testino_Home_0_document_2_tablet.png",
+        "label": "Testino Home",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200/home",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\Users\\PastaMista\\Documents\\GitHub\\testino2\\backstop_data\\bitmaps_reference\\backstop_testino_Testino_Home_0_document_2_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_testino_snapshot_h1_0_mat-h1_0_desktop.png",
+        "test": "..\\bitmaps_test\\20210917-124944\\backstop_testino_snapshot_h1_0_mat-h1_0_desktop.png",
+        "selector": ".mat-h1",
+        "fileName": "backstop_testino_snapshot_h1_0_mat-h1_0_desktop.png",
+        "label": "snapshot h1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200/home",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "error": "Reference file not found C:\\Users\\PastaMista\\Documents\\GitHub\\testino2\\backstop_data\\bitmaps_reference\\backstop_testino_snapshot_h1_0_mat-h1_0_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_testino_snapshot_h1_0_mat-h1_1_phone.png",
+        "test": "..\\bitmaps_test\\20210917-124944\\backstop_testino_snapshot_h1_0_mat-h1_1_phone.png",
+        "selector": ".mat-h1",
+        "fileName": "backstop_testino_snapshot_h1_0_mat-h1_1_phone.png",
+        "label": "snapshot h1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200/home",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found C:\\Users\\PastaMista\\Documents\\GitHub\\testino2\\backstop_data\\bitmaps_reference\\backstop_testino_snapshot_h1_0_mat-h1_1_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_testino_snapshot_h1_0_mat-h1_2_tablet.png",
+        "test": "..\\bitmaps_test\\20210917-124944\\backstop_testino_snapshot_h1_0_mat-h1_2_tablet.png",
+        "selector": ".mat-h1",
+        "fileName": "backstop_testino_snapshot_h1_0_mat-h1_2_tablet.png",
+        "label": "snapshot h1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200/home",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\Users\\PastaMista\\Documents\\GitHub\\testino2\\backstop_data\\bitmaps_reference\\backstop_testino_snapshot_h1_0_mat-h1_2_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_testino"
+}
