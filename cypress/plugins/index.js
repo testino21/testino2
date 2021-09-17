@@ -22,3 +22,6 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
   addMatchImageSnapshotPlugin(on, config);
 }
+
+
+require('@applitools/eyes-cypress')(module);

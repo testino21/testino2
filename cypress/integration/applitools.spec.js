@@ -6,6 +6,8 @@ describe ("Home Snapshot", () => {
 
     it("should show h1",() => {
         cy.get("h1").contains("Home");
+        cy.get(".mat-expansion-panel-header-title").click();
+
     })
 
     it("should take a snapshot",() => {
@@ -13,10 +15,9 @@ describe ("Home Snapshot", () => {
             appName: "Testino2",
             testName: "Visual Check",
             browser: [
-                {name: "firefox", width: 2560, height: 1440},
-                {name: "chrome", width: 2560, height: 1440},
-                {name: "safari", width: 2560, height: 1440},
-                {deviceName: "iPhone 12"},
+                {name: "firefox", width: 1920, height: 1080},
+                {name: "chrome", width: 1920, height: 1080},
+                {name: "safari", width: 1920, height: 1080},
             ],
             
         });

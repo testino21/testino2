@@ -1,3 +1,6 @@
 {
-    "baseUrl": "http://localhost:4200/home"
+    "baseUrl": "http://localhost:4200/home",
+    "env": {
+        "APPLITOOLS_API_KEY": "YAI66DlZPq6G2Tr9VSJ0ZOcEsIjdA47tzBVQNRrsV108c110"
+    }
 }
